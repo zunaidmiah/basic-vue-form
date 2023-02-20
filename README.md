@@ -7,11 +7,11 @@ Official documentation for Vue [click here](https://vuejs.org/guide/introduction
 <br>
 Folow this instruction step by step, You can be easily create a basic form using Vue.js<br>
 Lets' start<br>
-<b>Step 1</b><hr><br>
+<b>Step 1</b><hr>
 First you need to clone this repository in your local machine
 <br>
 <br>
-<b>Step 2</b><hr><br>
+<b>Step 2</b><hr>
 Then just need to open this index.html file in your browser
 <br>
  <br>
