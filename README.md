@@ -10,7 +10,7 @@ Lets' start<br>
 <b>Step 1</b><hr><br>
 copy a bootstrap boiler plate from bootstrap site with a basic form.<br>
 or import all code from below
-'''
+````
 <!doctype html>
 <html lang="en">
 
@@ -65,20 +65,20 @@ or import all code from below
 </body>
 
 </html>
-'''
+````
 
 <br>
 <br>
 <b>Step 2</b><hr><br>
 Now need to add vue cdn in head section <br>
-'''
+```
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-'''
+```
 <br>
 <br>
 <b>Step 3</b><hr><br>
 Now add some vue code in script tag, given below
-'''
+````
 <script>
         const {
             createApp
@@ -132,12 +132,12 @@ Now add some vue code in script tag, given below
             }
         }).mount("#vue")
     </script>
-'''
+````
 <br>
 <br>
 <b>Step 4</b><hr><br>
 Add those div section under the form section
-'''
+````
 <div v-if="status==1">
     <p>Hey Welcome Mr.
         <strong> {{formData.fname }} {{formData.lname }}! </strong>, Your given information given below-</p>
@@ -152,13 +152,13 @@ Add those div section under the form section
     <div v-else v-html="child">
     </div>
 </div>
-'''
+````
  <br>
  <br>
  <b>Step 5</b><hr><br>
 Now add directives and some of vue element on html DOM <br>
 Replace the form section. <b> Know about directives [click here](https://vuejs.org/api/built-in-directives.html#built-in-directives) </b>
-'''
+````
 <form v-on:submit.prevent="doSomething">
     <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
@@ -183,7 +183,7 @@ Replace the form section. <b> Know about directives [click here](https://vuejs.o
         <button class="btn btn-warning mb-4" @click="resetForm">Reset</button>
     </div>
 </form>
-''
+````
 <br>
  <br>
  hurray!<br>
